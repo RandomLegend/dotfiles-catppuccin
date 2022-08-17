@@ -27,7 +27,12 @@
 |---|---|
 | KVantum   | https://github.com/catppuccin/Kvantum |
 | GTK  | https://store.kde.org/p/1715554 |
+| Rofi  | https://github.com/adi1090x/rofi |
 
 Those Themes are the ones i based my dotfiles on...So when you want what i have (what you basically came here for) use the following.
 
 ### And my specific .config files 📑 are all up there to find. 
+
+### For Rofi i used the only available launchers that i left in the config. For the Applauncher it's Type-6 / Style-1. And for the Powermenu it's  Type-1 / Style-2. However i had to hardcode the colorvalues for the applauncher in the style-1.rasi file to kinda match my catppuccin theme.
+
+## I hope i didn't forget anything that you saw in my post...if yes and you want something specific you can just contact me either here or on reddit and i give you what you crave.
