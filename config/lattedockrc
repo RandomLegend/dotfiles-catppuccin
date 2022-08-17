@@ -1,0 +1,66 @@
+[FileDialogSize]
+DP-4 DP-2 Height 3440x1440=783
+DP-4 DP-2 Width 3440x1440=1738
+
+[KFileDialog Settings]
+Recent Files[$e]=defaultcustomprint.jpg,file:///usr/share/plasma/shells/org.kde.latte.shell/contents/images/canvas/defaultcustomprint.jpg
+Recent URLs[$e]=file:///usr/share/plasma/shells/org.kde.latte.shell/contents/images/canvas/
+detailViewIconSize=16
+
+[LatteSettingsDialog]
+downloadWindowSize=980,600
+windowSize=1100,750
+
+[LatteSettingsDialog][DetailsDialog]
+windowSize=560,640
+
+[LatteSettingsDialog][TabLayouts]
+columnWidths=48,508,129,104
+sortColumn=3
+sortOrder=0
+
+[LatteSettingsDialog][ViewsDialog]
+columnWidths=59,256,142,135,131
+sortColumn=2
+sortOrder=0
+windowSize=980,630
+
+[PlasmaThemeExtended]
+outlineWidth=1
+
+[PlasmaTransientsConfig]
+PreloadWeight=0
+byPassWM=false
+isPreferredForShortcuts=false
+lastScreen=10
+name=
+onPrimary=true
+screensGroup=0
+viewType=0
+
+[PlasmaTransientsConfig][Indicator]
+customType=
+enabled=true
+type=org.kde.latte.default
+
+[ScreenConnectors]
+10=DP-4:::1080,386 3440x1440
+11=DP-2:::0,0 1080x1920
+
+[UniversalSettings]
+badges3DStyle=false
+canDisableBorders=false
+contextMenuActionsAlwaysShown=_layouts,_preferences,_quit_latte,_separator1,_add_latte_widgets,_add_view
+inAdvancedModeForEditSettings=true
+inConfigureAppletsMode=false
+isAvailableGeometryBroadcastedToPlasma=true
+launchers=
+memoryUsage=0
+metaPressAndHoldEnabled=true
+parabolicSpread=7
+parabolicThicknessMarginInfluence=1
+screenTrackerInterval=2500
+showInfoWindow=true
+singleModeLayoutName=My Layout
+userConfiguredAutostart=true
+version=2
