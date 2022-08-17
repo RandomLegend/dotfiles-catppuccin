@@ -22,11 +22,12 @@
 
 
 ### Now comes the Themes 🖌️
-> KVantum: https://github.com/catppuccin/Kvantum
-> GTK: https://store.kde.org/p/1715554
+
+|For?| Link |
+|---|---|
+| KVantum   | https://github.com/catppuccin/Kvantum |
+| GTK  | https://store.kde.org/p/1715554 |
 
 Those Themes are the ones i based my dotfiles on...So when you want what i have (what you basically came here for) use the following.
 
-### And my specific .config files 📑
->
-
+### And my specific .config files 📑 are all up there to find. 
