@@ -17,7 +17,7 @@
 
 |For?| Link |
 |---|---|
-| KDE   | https://github.com/catppuccin/alacritty|
+| KDE   | https://github.com/Smart-Helper/dotfiles/tree/main/local/share/color-schemes |
 | Alacritty  | https://github.com/Smart-Helper/dotfiles/tree/main/local/share/color-schemes |
 
 
