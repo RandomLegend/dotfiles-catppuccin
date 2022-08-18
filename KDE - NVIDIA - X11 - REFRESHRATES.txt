@@ -1,0 +1,50 @@
+KDE Plasma + NVidia + Different Refresh Rates FIX
+
+#######################################################################
+
+Step 1:
+
+sudo nano /etc/environment
+
+paste the following and save:
+
+KWIN_X11_REFRESH_RATE=144000
+KWIN_X11_NO_SYNC_TO_VBLANK=1
+KWIN_X11_FORCE_SOFTWARE_VSYNC=1
+CLUTTER_DEFAULT_FPS=144
+_GL_SYNC_DISPLAY_DEVICE=DP-4
+_GL_SYNC_TO_VBLANK=0
+
+Please check on what DisplayPort your higher frequency display is connected. In my case it's DP-4. If it is something different, you have to correct the in the above mentioned variables on "_GL_SYNC_DISPLAY_DEVICE=DP-WHATEVERYOURDPIS"
+
+#######################################################################
+
+Step 2:
+
+sudo nvidia-settings
+
+In the "OpenGL Settings" section you touch these options
+
+Sync to VBlank: OFF
+Allow Flipping: OFF
+Image Settings: Quality
+Enable Graphics API Visual Indicator: OFF
+
+In the "XServer Display Configuration" section, set the Hz and resolution for each display, click on the "Advanced" option (in each of the displays) and check the "Force Full Composition Pipeline" options and uncheck the "Allow G-SYNC on monitor not validated as G-SYNC Compatible" after that click on save.
+
+Then, in X Server Display Configuration hit "Save to X Configuration File" and UNCHECK "merge with existing file"
+
+#######################################################################
+
+Step 3:
+
+System Settings -- Hardware -- Display and Monitor -- Compositor
+
+Allow apps block composition: OFF
+Scaling: Smooth
+Latency: Force smoother animations
+vsyn: Auto
+
+#######################################################################
+
+This should do the trick.
