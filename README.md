@@ -17,8 +17,8 @@
 
 |For?| Link |
 |---|---|
-| KDE   | https://github.com/Smart-Helper/dotfiles/tree/main/local/share/color-schemes |
-| Alacritty  | https://github.com/Smart-Helper/dotfiles/tree/main/local/share/color-schemes |
+| KDE   | https://github.com/RandomLegend/dotfiles/tree/main/local/share/color-schemes |
+| Alacritty  | https://github.com/catppuccin/alacritty |
 
 
 ### Now comes the Themes 🖌️
