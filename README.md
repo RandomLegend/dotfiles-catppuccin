@@ -36,3 +36,5 @@ Those Themes are the ones i based my dotfiles on...So when you want what i have 
 ### For Rofi i used the only available launchers that i left in the config. For the Applauncher it's Type-6 / Style-1. And for the Powermenu it's  Type-1 / Style-2. However i had to hardcode the colorvalues for the applauncher in the style-1.rasi file to kinda match my catppuccin theme.
 
 ## I hope i didn't forget anything that you saw in my post...if yes and you want something specific you can just contact me either here or on reddit and i give you what you crave.
+
+PS: i also added a .txt file for everyone here that has a NVidia Card and doesn't want to kill plasmashell and use Picom to get higher refresh rates with two different displays.
