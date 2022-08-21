@@ -2,6 +2,12 @@
 
 ## ❗Bear in mind that i have a 3440x1440 display..so this is for that configuration❗
 
+
+
+https://user-images.githubusercontent.com/38812603/185783955-f6c66723-a440-4527-8c49-7753ba92c4c8.mp4
+
+
+
 ### What programs i use ⚙️
 |What does it do?   | Name?   |Link   |
 |---|---|---|
